@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <style>
+        body {
+            background-image: url(bobi.png);
+        }
+
+        table {
+            height: 500px;
+            margin: auto;
+            box-shadow: 2px 2px 2px 2px black;
+            border-radius: 5px;
+        }
+
+        table,
+        td,
+        tr {
+
+            text-align: center;
+            background-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+
+        .Ll {
+            background-color: #B3CC57;
+        }
+
+        .db {
+            background-color: #ECF081;
+        }
+
+        .pt {
+            background-color: #FFBE40;
+        }
+
+        .pro {
+            background-color: #EF746F;
+        }
+
+        .fol {
+            background-color: #AB3E5B;
+        }
+
+        .ent {
+            background-color: #A8E6CE;
+        }
+
+        .sis {
+            background-color: #668284;
+        }
+
+        .hora {
+            background-color: #FF6B6B;
+        }
+    </style>
+</head>
+
+
+<body>
+    <table>
+        <tr class="hora">
+            <th> </th>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+
+        </tr>
+        <tr>
+            <td class="hora">15:30 - 16:25</td>
+            <td class="db">Bases de dades</td>
+            <td rowspan="2" class="ent">Ent. desenvolupament</td>
+            <td rowspan="3" class="db">Bases de dades</td>
+            <td rowspan="2" class="db">Bases de dades</td>
+            <td class="fol">FOL</td>
+        </tr>
+        <tr>
+            <td class="hora">16:25 - 17:20</td>
+            <td rowspan="2" class="pro">Programació</td>
+            <td rowspan="2" class="db">Bases de dades</td>
+
+        </tr>
+        <tr>
+            <td class="hora">17:20 - 18:15</td>
+            <td class="pro">Programació</td>
+            <td class="ent">Ent. desenvolupament</td>
+        </tr>
+        <tr>
+            <td class="hora">18:15 - 18:45</td>
+            <td colspan="5" class="pt">PATI</td>
+        </tr>
+        <tr>
+            <td class="hora">18:45 - 19:40</td>
+            <td class="Ll">Llenguatges de marques</td>
+            <td rowspan="3" class="sis">Sistemes informàtics</td>
+            <td class="Ll">Llenguatges de marques</td>
+            <td class="Ll">Lenguatges de marques</td>
+            <td class="sis">Sistemes informàtic</td>
+
+        </tr>
+        <tr>
+            <td class="hora">19:40 - 20:35</td>
+            <td rowspan="2" class="fol">FOL</td>
+            <td rowspan="2" class="db">Programació</td>
+            <td rowspan="2" class="pro">Programació</td>
+            <td rowspan="2" class="db">Bases de dades</td>
+        </tr>
+        <tr>
+            <td class="hora">20:35 - 21:20</td>
+        </tr>
+    </table>
+</body>
+
+</html>
