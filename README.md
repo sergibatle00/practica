@@ -16,4 +16,4 @@ Subimos al repositorio remoto mediante el comando **git push origin main**
 ![3.png](https://github.com/sergibatle00/practica/blob/main/gitcap2/3.PNG)
 
 # GitLab
-Proceso en GitLab en: (link)
+Proceso en GitLab en: (https://gitlab.com/sbatleferre/practica-1-git/-/tree/main)
