@@ -2,15 +2,18 @@
 
 
 ## Clonamos del repositorio
-Clonado el repositorio en mi PC con el comando **git clone [url del repositorio]**
+Clonamos el repositorio en mi PC con el comando **git clone [url del repositorio]**
 
 ![1.png](https://github.com/sergibatle00/practica/blob/main/gitcap2/1.PNG)
 
-## add, commit y push
+## add y commit 
 Añadimos el proyecto html con git add **"nombre del archivo"** y hacemos commit con el comando **git commit -m "comentario"**
 
-![add_screenshots.png](https://github.com/sergibatle00/practica/blob/main/gitcap2/2.PNG)
+![2.png](https://github.com/sergibatle00/practica/blob/main/gitcap2/2.PNG)
 
+## push
+Subimos al repositorio remoto mediante el comando **git push origin main**
+![3.png](https://github.com/sergibatle00/practica/blob/main/gitcap2/3.PNG)
 
 # GitLab
 Proceso en GitLab en: (link)
